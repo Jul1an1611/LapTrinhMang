@@ -274,6 +274,9 @@ Sau khi đăng nhập thành công, bạn có thể chat với những người 
 
 🖥 Code minh họa
 #.Server.java
+
+
+
 package Chat;
 
 import javax.swing.*;
@@ -572,6 +575,7 @@ public class Server {
 	}
 }
 #.Client.java
+
 package Chat;
 
 import javax.swing.*;
@@ -845,7 +849,7 @@ public class Client {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new Client("localhost", 5000));
     }
-}
+    }
 📞 Thông tin liên hệ
 
 👤 Tác giả: Nguyễn Hoàng Anh
